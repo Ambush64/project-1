@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+
+.container-fluid{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+nav{
+	height: 45px;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Heebo', sans-serif;
+	
+}
+
+.nav_phone a,.nav_info a{
+	text-decoration: none;
+	padding: 2px;
+	padding-top: 7px;
+	color: white;
+	font-family: 'Heebo', sans-serif;
+
+}
+.nav_phone a:hover,.nav_info a:hover{
+	text-decoration: none;
+	color: black;
+	font-family: 'Heebo', sans-serif;
+
+}
+.nav_phone_2{
+	display: flex;
+	width: 40%;
+	height: 45px;
+	justify-content: space-around;
+	background-color:#66ccff ;
+	padding-left: 20px ;
+	font-family: 'Heebo', sans-serif;
+}
+
+.nav_phone{
+	width: 70%;
+	background-color: #476b6b;
+	font-family: 'Heebo', sans-serif;
+}
+
+.nav_info{
+	width: 30%;
+	display: flex;
+	padding-right:  30px;
+	justify-content: space-around;
+	background-color: #476b6b;
+	font-family: 'Heebo', sans-serif;
+	
+}
+
+svg{
+	padding-bottom: 2px;
+}
+.nav_boot_brand{
+	padding-left: 100px;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.nav_boot_info{
+	padding-right: 20px;
+}
+
+.nav_boot_img {
+	padding-top: 2px;
+	width: 30px;
+	height: 40px;
+}
+
+.home {
+	width: 100%;
+	height: 400px;
+	background: url('file:///C:/Users/Ayub/Downloads/volodymyr-hryshchenko-e8YFkjN2CzY-unsplash%20(1).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.img_caption, 
+.img_caption_1,
+.img_caption_2{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	overflow-y: hidden;
+} 
+.img_caption {
+	width: 100%;
+	height: 400px;
+	background-color: rgb(0, 153, 255, 0.4) ;
+	position: absolute;
+	padding-top:250px ;
+	padding-left: 60px;
+
+}
+.img_caption_1 {
+	
+	position: absolute;
+	padding-top:290px ;
+	padding-left: 60px;
+}
+
+.img_caption_2 {
+	position: absolute;
+	padding-top:340px ;
+	padding-left: 60px;
+
+}
+
+.column_title {
+	font-size: large;
+	font-family: serif;
+	color: #3498db;
+}
+
+.column_para{
+
+	padding-left: 9px
+
+}
+
+.column_input {
+	display: block;
+	margin-left: 10px;
+	padding-bottom: 3px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 90%;
+	border-bottom:  1px solid #2c3e50;
+}
+
+.input_warn{
+	display: none;
+	margin-left: 10px;
+}
+
+
+.column_mail {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 45%;
+	border-bottom:  1px solid #2c3e50;
+}
+
+.column_phone {
+	display: inline-block;
+	margin: 10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 42.5%;
+	border-bottom:  1px solid #2c3e50;
+
+
+}
+
+.mail_warn{
+	display: none;
+	
+}
+
+.column_message {
+	display: block;
+	margin: 10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom:  1px solid #2c3e50;
+	height: 50px;
+	width: 90%;
+	resize: none;
+	overflow-y: hidden;
+
+}
+
+.column_submit {
+	display: block;
+	margin: 10px;
+	padding-left: 5px;
+	padding-right:  5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 8px;
+	background-color: #0abde3;
+	color: white;
+	border: none;
+	width: 30%;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bolder;
+	letter-spacing: 2px;
+
+
+}
+
+#email{
+	margin-left: 10px;
+}
+
+.column_map {
+	margin: 4px;
+}
+
+.foot {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+	
+}
+
+.foot_phone {
+	width: 28%;
+	display: inline-block;
+	background-color: #dfe6e9;
+	font-family: 'Heebo', sans-serif;
+
+}
+
+.foot_mail{
+	width: 28%;
+	display: inline-block;
+	background-color: #dfe6e9;
+	font-family: 'Heebo', sans-serif;
+}
+
+.foot_geo {
+	margin: ;
+	width: 28%;
+	display: inline-block;
+	background-color: #dfe6e9;
+	font-family: 'Heebo', sans-serif;
+}
+
+#scroll_top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-color: #0abde3;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: none;
+}
+
+#scroll_top:active ,#scroll_top:hover {
+	background-color: #2e86de;
+}
